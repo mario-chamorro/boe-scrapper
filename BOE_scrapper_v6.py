@@ -173,4 +173,5 @@ def tweet_today():
     api.update_status(tweet_today_pages)
 
 def tweet_yearly():
+    update_yearly_csv()
     api.update_status(tweet_yearly_pages)
